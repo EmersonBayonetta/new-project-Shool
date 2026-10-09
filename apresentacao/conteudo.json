@@ -1,0 +1,1149 @@
+﻿[
+    {
+        "type":  "cover",
+        "section":  "ABERTURA",
+        "title":  "Trilha — da proposta ao protótipo",
+        "source":  "Síntese do posicionamento",
+        "notes":  "Apresente a Trilha como uma jornada guiada de execução acadêmica. Esta apresentação parte do documento conceitual Solucao_Academica_Etapas_Ajustadas.md e usa capturas do protótipo desenvolvido depois. Não há resultados de pesquisa com estudantes. Para um pitch curto, use os slides 1, 3, 6, 13, 21, 23, 25, 30, 34 e 37; os demais sustentam a apresentação completa e perguntas."
+    },
+    {
+        "type":  "cards",
+        "section":  "VISÃO DA APRESENTAÇÃO",
+        "title":  "Uma proposta construída em seis etapas",
+        "subtitle":  "Do entendimento do problema à demonstração funcional.",
+        "source":  "Estrutura original · Etapas 1 a 6",
+        "items":  [
+                      {
+                          "title":  "01 · Entender",
+                          "body":  "Usuários, problema aparente, hipóteses e pergunta norteadora."
+                      },
+                      {
+                          "title":  "02 · Explorar",
+                          "body":  "22 ideias organizadas em cinco pilares e três diferenciais."
+                      },
+                      {
+                          "title":  "03 · Restringir",
+                          "body":  "Offline, gamificação e baixa familiaridade tecnológica."
+                      },
+                      {
+                          "title":  "04 · Transformar",
+                          "body":  "SCAMPER aplicado ao produto e à experiência."
+                      },
+                      {
+                          "title":  "05 · Antecipar",
+                          "body":  "Cenários “E se…?” e limites do protótipo."
+                      },
+                      {
+                          "title":  "06 · Demonstrar",
+                          "body":  "Jornada, telas, arquitetura, pitch e validação futura."
+                      }
+                  ],
+        "notes":  "Explique que a estrutura preserva o exercício original. O documento propõe um protótipo de baixa fidelidade; as telas desta apresentação são a implementação funcional posterior."
+    },
+    {
+        "type":  "cards",
+        "section":  "ETAPA 1 · ENTENDER ANTES DE CRIAR",
+        "title":  "Mais uma agenda resolveria o problema?",
+        "subtitle":  "A escola percebe atrasos em trabalhos, avaliações, atividades e projetos.",
+        "source":  "Etapa 1 + situação-problema original",
+        "items":  [
+                      {
+                          "title":  "A situação",
+                          "body":  "Os alunos já consultam agendas, calendários, grupos de mensagens e sistemas acadêmicos."
+                      },
+                      {
+                          "title":  "O desafio",
+                          "body":  "Mesmo com essas ferramentas, continuam esquecendo ou adiando responsabilidades."
+                      },
+                      {
+                          "title":  "A pergunta",
+                          "body":  "Como ajudar a compreender, priorizar e concluir tarefas com conexão limitada?"
+                      }
+                  ],
+        "notes":  "Não apresente desinteresse como causa comprovada. A situação-problema motiva o projeto, mas as hipóteses precisam ser investigadas. Leia a pergunta norteadora e conecte ao diferencial exigido pelo exercício."
+    },
+    {
+        "type":  "cards",
+        "section":  "ETAPA 1 · PÚBLICO E NECESSIDADES",
+        "title":  "O aluno conduz a jornada",
+        "subtitle":  "Professor e administração apoiam a experiência principal.",
+        "source":  "Etapa 1 · Quem é o usuário?",
+        "items":  [
+                      {
+                          "title":  "Aluno · protagonista",
+                          "body":  "Encontra prioridades, divide tarefas, registra progresso e organiza estudos."
+                      },
+                      {
+                          "title":  "Professor · apoio",
+                          "body":  "Publica atividades, esclarece orientações, acompanha entregas e comunica mudanças."
+                      },
+                      {
+                          "title":  "Administração · gestão",
+                          "body":  "Organiza turmas, disciplinas e perfis fictícios no ambiente demonstrativo."
+                      }
+                  ],
+        "notes":  "Os três perfis existem no protótipo, mas a alternância é demonstrativa e não corresponde a autenticação segura. Todos operam na mesma base local do navegador."
+    },
+    {
+        "type":  "cards",
+        "section":  "ETAPA 1 · HIPÓTESES A INVESTIGAR",
+        "title":  "O atraso é visível. A causa precisa ser ouvida.",
+        "subtitle":  "Hipóteses do documento; não conclusões validadas com estudantes.",
+        "source":  "Etapa 1 · Problema aparente e problema real",
+        "items":  [
+                      {
+                          "title":  "Informação dispersa",
+                          "body":  "Diferentes canais dificultam localizar uma orientação e sua versão atualizada."
+                      },
+                      {
+                          "title":  "Execução pouco clara",
+                          "body":  "Um prazo não explica como começar nem como dividir um trabalho longo."
+                      },
+                      {
+                          "title":  "Progresso invisível",
+                          "body":  "Sem etapas, o aluno pode não perceber quanto avançou ou quanto falta."
+                      },
+                      {
+                          "title":  "Barreiras de contexto",
+                          "body":  "Conexão limitada, alertas em excesso e políticas pouco flexíveis podem agravar a situação."
+                      }
+                  ],
+        "notes":  "A solução se orienta por estas hipóteses. Uma etapa posterior deve entrevistar alunos e professores e observar o uso das ferramentas existentes. Não associe atrasos automaticamente a falta de comprometimento."
+    },
+    {
+        "type":  "statement",
+        "section":  "ETAPA 1 · INSIGHT CENTRAL",
+        "title":  "Saber quando vence não basta.",
+        "subtitle":  "O aluno precisa saber o que fazer agora, como avançar e quanto falta para terminar.",
+        "source":  "Etapa 1 · Insight central",
+        "items":  [
+                      {
+                          "title":  "O QUE FAZER AGORA",
+                          "body":  "Prioridade explicável"
+                      },
+                      {
+                          "title":  "COMO AVANÇAR",
+                          "body":  "Pequenas etapas"
+                      },
+                      {
+                          "title":  "QUANTO FALTA",
+                          "body":  "Progresso visível"
+                      }
+                  ],
+        "notes":  "Esta é a tese central do pitch. Faça uma pausa antes de mostrar as telas. A agenda informa quando; a Trilha orienta a execução e acompanha o avanço."
+    },
+    {
+        "type":  "cards",
+        "section":  "ETAPA 2 · TEMPESTADE DAS IDEIAS",
+        "title":  "22 ideias. Cinco pilares de produto.",
+        "subtitle":  "A criatividade ganha estrutura para orientar prioridades de implementação.",
+        "source":  "Etapa 2 · Organização das ideias",
+        "items":  [
+                      {
+                          "title":  "Centralização",
+                          "body":  "Tarefas, calendário, mural, notas e filtros. Ideias 3, 4, 15, 17 e 21."
+                      },
+                      {
+                          "title":  "Planejamento e apoio",
+                          "body":  "Alertas, lembretes, chatbot e revisão. Ideias 1, 8, 9, 10, 16 e 18."
+                      },
+                      {
+                          "title":  "Motivação",
+                          "body":  "XP, ranking opcional, chama e quiz. Ideias 6, 7, 12 e 14."
+                      },
+                      {
+                          "title":  "Acesso inclusivo",
+                          "body":  "Acessibilidade, tour, offline e navegação simples. Ideias 11 e 22."
+                      },
+                      {
+                          "title":  "Colaboração e gestão",
+                          "body":  "Docentes, comunidade, prazos, perfis e totem. Ideias 2, 5, 19 e 20."
+                      }
+                  ],
+        "notes":  "O título original fala em tempestade de 20 ideias, mas o documento preserva 22 ideias do grupo. Não reduza a contagem. Os números apontam para a lista completa do apêndice."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 2 · CENTRALIZAÇÃO",
+        "title":  "As responsabilidades se encontram em um lugar",
+        "subtitle":  "Atividades reais alimentam filtros, prazos e calendário.",
+        "source":  "Etapa 2 · Ideias 3, 4, 15, 17 e 21",
+        "screens":  [
+                        {
+                            "file":  "atividades",
+                            "label":  "Atividades, prioridade e progresso"
+                        },
+                        {
+                            "file":  "calendario",
+                            "label":  "Calendário com as mesmas entregas"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Registrar e encontrar",
+                          "body":  "Criar, editar, excluir e pesquisar atividades."
+                      },
+                      {
+                          "title":  "Filtrar com contexto",
+                          "body":  "Disciplina, prioridade, status e prazo."
+                      },
+                      {
+                          "title":  "Conectar informações",
+                          "body":  "Sem duplicar atividades entre lista e calendário."
+                      }
+                  ],
+        "notes":  "Explique que os filtros são funcionais, não apenas decorativos. O calendário consulta o registro persistido da atividade. Mural e notas completam a centralização e aparecem em telas posteriores."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 2 · PLANEJAMENTO E APOIO",
+        "title":  "Apoio contextual para decidir o próximo passo",
+        "subtitle":  "Sugestões locais consultam os dados reais da aplicação.",
+        "source":  "Etapa 2 · Ideias 1, 8, 9, 10, 16 e 18",
+        "screens":  [
+                        {
+                            "file":  "assistente",
+                            "label":  "Assistente demonstrativo por regras locais"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Perguntas úteis",
+                          "body":  "Semana, atrasos, prioridade e plano de estudo."
+                      },
+                      {
+                          "title":  "Resposta explicável",
+                          "body":  "Considera prazo, etapas pendentes e esforço."
+                      },
+                      {
+                          "title":  "Evolução futura",
+                          "body":  "Voz, IA generativa e notificações externas não estão integradas."
+                      }
+                  ],
+        "notes":  "O assistente não aprende com comportamento e não chama serviços de IA. Mensagens de apoio existem; lembretes configuráveis e questões geradas por IA continuam como propostas. O apêndice mostra esses limites por ideia."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 2 · MOTIVAÇÃO",
+        "title":  "Reconhecer avanços, sem confundir XP com notas",
+        "subtitle":  "Medalhas, metas pessoais e chama acompanham ações reais.",
+        "source":  "Etapa 2 · Ideias 6, 7, 12 e 14",
+        "screens":  [
+                        {
+                            "file":  "conquistas",
+                            "label":  "Evolução e conquistas calculadas a partir do progresso"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "XP por participação",
+                          "body":  "Etapas e atividades concluídas geram pontos."
+                      },
+                      {
+                          "title":  "Constância acolhedora",
+                          "body":  "Meta semanal sem punição por pausas."
+                      },
+                      {
+                          "title":  "Ranking é opcional",
+                          "body":  "Não incluído no protótipo; nunca deve expor notas ou dificuldades."
+                      }
+                  ],
+        "notes":  "A chama representa evolução. As conquistas podem ser recalculadas ao desfazer progresso. O quiz é local; multiplayer e ranking não foram implementados."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 2 · ACESSO INCLUSIVO",
+        "title":  "Uma experiência simples, também no celular",
+        "subtitle":  "A navegação essencial não depende do tour nem de uma resposta de IA.",
+        "source":  "Etapa 2 · Ideias 11 e 22 + Etapa 3",
+        "screens":  [
+                        {
+                            "file":  "mobile",
+                            "label":  "Interface mobile",
+                            "mobile":  true
+                        },
+                        {
+                            "file":  "acessibilidade",
+                            "label":  "Tour opcional e controles de acessibilidade"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Linguagem direta",
+                          "body":  "Ações claras e progresso fácil de interpretar."
+                      },
+                      {
+                          "title":  "Controles acessíveis",
+                          "body":  "Texto maior, contraste e movimento reduzido."
+                      },
+                      {
+                          "title":  "Teclado e feedback",
+                          "body":  "Foco visível, diálogos e confirmação de ações."
+                      }
+                  ],
+        "notes":  "Mostre como a tela destaca uma ação principal. Os controles estão na ajuda e as preferências ficam no navegador. Testes técnicos não substituem avaliação de acessibilidade com pessoas reais."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 2 · COLABORAÇÃO E GESTÃO",
+        "title":  "A turma compartilha responsabilidades e orientações",
+        "subtitle":  "Interações demonstrativas no mesmo dispositivo e navegador.",
+        "source":  "Etapa 2 · Ideias 2, 5, 19 e 20",
+        "screens":  [
+                        {
+                            "file":  "comunidade",
+                            "label":  "Discussões locais por turma"
+                        },
+                        {
+                            "file":  "professor-entregas",
+                            "label":  "Progresso individual no painel docente"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Comunidade",
+                          "body":  "Publicações, respostas e exclusão de conteúdo próprio."
+                      },
+                      {
+                          "title":  "Professor",
+                          "body":  "Atividades, comunicados e decisão sobre prorrogações."
+                      },
+                      {
+                          "title":  "Gestão complementar",
+                          "body":  "Turmas, disciplinas, usuários e totem demonstrativo."
+                      }
+                  ],
+        "notes":  "Não simule comunicação remota. Para usuários em dispositivos diferentes, seriam necessários backend, autenticação e moderação. A solicitação de extensão depende de decisão justificada do professor."
+    },
+    {
+        "type":  "cards",
+        "section":  "ETAPA 2 · TRÊS DIFERENCIAIS",
+        "title":  "Da lista de prazos à execução guiada",
+        "subtitle":  "As três melhorias adicionais conectam decisão, ação e recuperação.",
+        "source":  "Etapa 2 · Ideias adicionais após a tempestade",
+        "items":  [
+                      {
+                          "title":  "Prioridade explicável",
+                          "body":  "Mostra urgência e motivo: prazo, esforço e quantidade de etapas pendentes."
+                      },
+                      {
+                          "title":  "Planejamento por etapas",
+                          "body":  "Transforma uma entrega longa em ações menores com estimativas de tempo."
+                      },
+                      {
+                          "title":  "Plano de recuperação",
+                          "body":  "Reorganiza pendências em dias de estudo sem alterar prazos oficiais."
+                      }
+                  ],
+        "notes":  "Destaque que os três recursos funcionam por regras locais, mesmo sem conexão ou serviços externos. O diferencial não depende de prometer IA generativa."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 3 · RESTRIÇÃO 1 · OFFLINE",
+        "title":  "A jornada continua com conexão limitada",
+        "subtitle":  "Dados locais e cache da aplicação sustentam as ações essenciais.",
+        "source":  "Etapa 3 · Offline-first e critérios de aceitação",
+        "screens":  [
+                        {
+                            "file":  "offline",
+                            "label":  "Indicador local e simulação offline explicitamente identificada"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "IndexedDB",
+                          "body":  "Atividades, progresso, notas e demais registros."
+                      },
+                      {
+                          "title":  "PWA + cache",
+                          "body":  "Recarga sem rede após uma visita à versão de produção."
+                      },
+                      {
+                          "title":  "Limite atual",
+                          "body":  "Nenhum servidor conectado; não há novidades remotas nem sincronização real."
+                      }
+                  ],
+        "notes":  "Diferencie Simular offline de desligar a conexão do dispositivo. A simulação não altera a rede. O teste de navegador também verificou recarga com a rede realmente desativada. Dados são locais à origem e ao navegador; mudanças entre perfis usam a mesma base."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 3 · RESTRIÇÃO 2 · GAMIFICAÇÃO",
+        "title":  "Uma ação real. Um progresso verificável.",
+        "subtitle":  "Marcar uma etapa altera progresso e XP; desfazer recalcula ambos.",
+        "source":  "Etapa 3 · Gamificação funcional",
+        "screens":  [
+                        {
+                            "file":  "etapas-antes",
+                            "label":  "Antes: etapas pendentes"
+                        },
+                        {
+                            "file":  "etapas-depois",
+                            "label":  "Depois: etapa concluída e progresso atualizado"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "+10 XP",
+                          "body":  "Por etapa concluída."
+                      },
+                      {
+                          "title":  "+30 XP e +20 XP",
+                          "body":  "Por atividade e bônus de conclusão no prazo."
+                      },
+                      {
+                          "title":  "Sem duplicação",
+                          "body":  "Desmarcar e remarcar mantém a pontuação coerente."
+                      }
+                  ],
+        "notes":  "Use as duas capturas como demonstração de consequência real no estado. Não apresente os pontos como notas. Os valores detalham a implementação do protótipo, não regras obrigatórias do documento conceitual."
+    },
+    {
+        "type":  "flow",
+        "section":  "ETAPA 3 · RESTRIÇÃO 3 · SIMPLICIDADE",
+        "title":  "O fluxo essencial precisa ser fácil",
+        "subtitle":  "Poucas decisões para começar; feedback claro para continuar.",
+        "source":  "Etapa 3 · Baixa familiaridade tecnológica",
+        "items":  [
+                      {
+                          "title":  "01 · Entrar",
+                          "body":  "Selecionar um perfil demonstrativo."
+                      },
+                      {
+                          "title":  "02 · Ver prioridade",
+                          "body":  "Identificar o que precisa de atenção."
+                      },
+                      {
+                          "title":  "03 · Abrir tarefa",
+                          "body":  "Consultar orientações e etapas."
+                      },
+                      {
+                          "title":  "04 · Concluir etapa",
+                          "body":  "Ver progresso, XP e salvamento local."
+                      }
+                  ],
+        "notes":  "O tour é opcional. Nenhum usuário precisa concluí-lo para navegar. Inclua estados vazios, erro compreensível, exclusão confirmada e formulários que rejeitam dados inválidos. Os testes verificaram teclado e largura mobile de 390 px."
+    },
+    {
+        "type":  "cards",
+        "section":  "ETAPA 4 · SCAMPER · PARTE 1",
+        "title":  "Transformar a ideia em decisões de produto",
+        "subtitle":  "Substituir, combinar, adaptar e modificar.",
+        "source":  "Etapa 4 · S, C, A e M",
+        "items":  [
+                      {
+                          "title":  "S · Substituir",
+                          "body":  "Consulta dispersa → painel centralizado. Lista de datas → planejamento por ações."
+                      },
+                      {
+                          "title":  "C · Combinar",
+                          "body":  "Calendário mostra quando; etapas mostram como; gamificação incentiva continuar."
+                      },
+                      {
+                          "title":  "A · Adaptar",
+                          "body":  "Gestão de projetos e trilhas de aprendizagem para trabalhos acadêmicos."
+                      },
+                      {
+                          "title":  "M · Modificar",
+                          "body":  "Menos complexidade e alertas. Mais clareza, feedback e recursos adequados ao perfil."
+                      }
+                  ],
+        "notes":  "Mostre que cada letra produz uma decisão observável na interface. Centralizar não significa extinguir sistemas acadêmicos, WhatsApp ou ferramentas já existentes."
+    },
+    {
+        "type":  "cards",
+        "section":  "ETAPA 4 · SCAMPER · PARTE 2",
+        "title":  "Reorganizar a experiência em torno da ação",
+        "subtitle":  "Propor outro uso, eliminar e reorganizar.",
+        "source":  "Etapa 4 · P, E e R",
+        "items":  [
+                      {
+                          "title":  "P · Propor outro uso",
+                          "body":  "Revisão de conteúdo, preparação para avaliações e projetos em grupo; adaptação futura a outros cursos."
+                      },
+                      {
+                          "title":  "E · Eliminar",
+                          "body":  "Reduzir telas, cadastros e notificações redundantes. Evitar repetir dados da mesma atividade."
+                      },
+                      {
+                          "title":  "R · Reorganizar",
+                          "body":  "Primeiro o que merece atenção hoje. Depois detalhes, calendário e recursos complementares."
+                      }
+                  ],
+        "notes":  "A ordem de navegação orienta a jornada. Para docentes, o panorama da turma e a atividade complementam o trabalho do estudante."
+    },
+    {
+        "type":  "cards",
+        "section":  "ETAPA 5 · E SE…? · CONTEXTO",
+        "title":  "A proposta precisa responder a situações reais",
+        "subtitle":  "Notificações, apoio inteligente e colaboração.",
+        "source":  "Etapa 5 · Cenários iniciais",
+        "items":  [
+                      {
+                          "title":  "Sem notificações?",
+                          "body":  "Prioridades seguem no painel. Notificações do dispositivo dependem de permissões e integração futura."
+                      },
+                      {
+                          "title":  "Aprender com o usuário?",
+                          "body":  "Hoje: regras transparentes. Aprendizado de máquina exige consentimento, privacidade e validação."
+                      },
+                      {
+                          "title":  "Dois alunos colaborando?",
+                          "body":  "Hoje: comunidade no mesmo navegador. Comunicação entre dispositivos exige backend e moderação."
+                      }
+                  ],
+        "notes":  "Não atribua aprendizado ao assistente demonstrativo. Os cenários ajudam a explicitar responsabilidades técnicas e limites, sem prometer serviços ainda ausentes."
+    },
+    {
+        "type":  "cards",
+        "section":  "ETAPA 5 · E SE…? · ROTINA",
+        "title":  "Ajudar a retomar, sem culpabilizar",
+        "subtitle":  "Acúmulo, mudança de prazo, indecisão e acessibilidade.",
+        "source":  "Etapa 5 · Novos cenários propostos",
+        "items":  [
+                      {
+                          "title":  "Cinco tarefas acumuladas?",
+                          "body":  "Plano de recuperação por prioridade e esforço, com dias de estudo ajustáveis."
+                      },
+                      {
+                          "title":  "Prazo muda offline?",
+                          "body":  "No protótipo, alteração compartilhada localmente. Na versão remota, reconciliar versões ao sincronizar."
+                      },
+                      {
+                          "title":  "Não sabe começar?",
+                          "body":  "Meu próximo passo sugere uma ação pequena e concreta com tempo estimado."
+                      },
+                      {
+                          "title":  "Precisa de acessibilidade?",
+                          "body":  "Teclado, foco, textos claros, contraste, tamanho de fonte e movimento reduzido."
+                      }
+                  ],
+        "notes":  "A política de prazo é do professor. O planejamento pessoal não muda datas oficiais. O cenário de prazo modificado em outro dispositivo enquanto offline ainda depende de uma arquitetura remota futura."
+    },
+    {
+        "type":  "flow",
+        "section":  "ETAPA 6 · JORNADA PRINCIPAL",
+        "title":  "Professor publica. Aluno avança. A Trilha acompanha.",
+        "subtitle":  "Uma sequência de ações com efeitos reais na mesma base local.",
+        "source":  "Etapa 6 · Funcionamento da jornada",
+        "items":  [
+                      {
+                          "title":  "01 · Publicar",
+                          "body":  "Professor registra atividade, prazo e orientações."
+                      },
+                      {
+                          "title":  "02 · Priorizar",
+                          "body":  "Aluno encontra a tarefa e entende sua urgência."
+                      },
+                      {
+                          "title":  "03 · Dividir",
+                          "body":  "Etapas menores com tempo e ordem de execução."
+                      },
+                      {
+                          "title":  "04 · Executar",
+                          "body":  "Conclusão atualiza progresso e XP."
+                      },
+                      {
+                          "title":  "05 · Replanejar",
+                          "body":  "Plano de recuperação organiza as pendências."
+                      },
+                      {
+                          "title":  "06 · Continuar offline",
+                          "body":  "Dados locais preservam consulta e progresso."
+                      }
+                  ],
+        "notes":  "O sétimo passo do documento — enviar alterações ao retornar a rede e receber novas publicações — é uma evolução com backend, não uma função implementada. A jornada atual compartilha informações entre perfis apenas no mesmo navegador."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 6 · TELA 1 · ENTRADA + VISÃO GERAL",
+        "title":  "O primeiro contato já mostra o que fazer",
+        "subtitle":  "Seleção de perfil no topo e painel do aluno orientado à ação.",
+        "source":  "Etapa 6 · Telas recomendadas 1 e 2",
+        "screens":  [
+                        {
+                            "file":  "dashboard",
+                            "label":  "Dashboard do aluno: prioridades, próximo passo e indicadores"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Entrada demonstrativa",
+                          "body":  "Aluno, professor e administrador sem login real."
+                      },
+                      {
+                          "title":  "Resumo imediato",
+                          "body":  "Pendências, urgências, conclusões e XP."
+                      },
+                      {
+                          "title":  "Ação principal",
+                          "body":  "Meu próximo passo destaca a etapa prioritária."
+                      }
+                  ],
+        "notes":  "O documento sugere uma tela de entrada; na implementação, o seletor superior permite alternar perfis sem uma página de autenticação. As métricas exibidas vêm dos dados fictícios persistidos, não de números aleatórios."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 6 · TELA 2 · ATIVIDADE E ETAPAS",
+        "title":  "Transformar um trabalho longo em ações possíveis",
+        "subtitle":  "Instruções, prazo oficial, esforço e progresso no mesmo painel.",
+        "source":  "Etapa 6 · Tela recomendada 3",
+        "screens":  [
+                        {
+                            "file":  "etapas-depois",
+                            "label":  "Detalhe da atividade com checklist funcional"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Consultar e planejar",
+                          "body":  "Descrição, disciplina, docente e prazo."
+                      },
+                      {
+                          "title":  "Personalizar a trilha",
+                          "body":  "Adicionar etapas e reorganizar sua ordem."
+                      },
+                      {
+                          "title":  "Registrar e acompanhar",
+                          "body":  "Concluir, desfazer, observar percentual e solicitar prorrogação."
+                      }
+                  ],
+        "notes":  "O cálculo considera as etapas atuais da atividade. O progresso do aluno fica separado do cadastro compartilhado. A exclusão exige confirmação e remove relacionamentos associados."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 6 · CALENDÁRIO E FILTROS",
+        "title":  "Ver quando entregar, sem perder o contexto",
+        "subtitle":  "A mesma atividade aparece na lista, no calendário e no planejamento.",
+        "source":  "Etapa 6 · Núcleo do perfil aluno",
+        "screens":  [
+                        {
+                            "file":  "calendario",
+                            "label":  "Navegação mensal, seleção de dia e entregas reais"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Explorar os meses",
+                          "body":  "Avançar, voltar e selecionar uma data."
+                      },
+                      {
+                          "title":  "Encontrar entregas",
+                          "body":  "Marcadores por prioridade e filtro de disciplina."
+                      },
+                      {
+                          "title":  "Abrir os detalhes",
+                          "body":  "O cartão do dia leva ao registro da atividade."
+                      }
+                  ],
+        "notes":  "Demonstre uma mudança de prazo pelo professor e mostre o reflexo no calendário. Não há uma cópia independente dos dados do calendário."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 6 · TELA 3 · RECUPERAÇÃO",
+        "title":  "Recuperar o planejamento, um dia de cada vez",
+        "subtitle":  "Pendências ordenadas por prazo e esforço, sem mudar as regras da turma.",
+        "source":  "Etapa 6 · Tela recomendada 4 + diferencial",
+        "screens":  [
+                        {
+                            "file":  "plano",
+                            "label":  "Plano aceito com etapas e dias de estudo ajustáveis"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Identificar pendências",
+                          "body":  "Atividades atrasadas e próximas do vencimento."
+                      },
+                      {
+                          "title":  "Aceitar ou ajustar",
+                          "body":  "Salvar plano pessoal e editar o dia de estudo."
+                      },
+                      {
+                          "title":  "Preservar prazo oficial",
+                          "body":  "A sugestão não concede prorrogação automaticamente."
+                      }
+                  ],
+        "notes":  "A implementação usa meta de 120 minutos por dia. Etapas maiores reservam dias exclusivos; o plano é uma sugestão, não garantia de cumprir todos os prazos. O aluno pode ajustar os dias."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 6 · TELA 4 · PROFESSOR",
+        "title":  "Publicar, acompanhar e orientar a turma",
+        "subtitle":  "Entregas individuais preservadas sob uma atividade compartilhada.",
+        "source":  "Etapa 6 · Tela recomendada 5 e perfil professor",
+        "screens":  [
+                        {
+                            "file":  "professor-formulario",
+                            "label":  "Cadastro da atividade com etapas sugeridas"
+                        },
+                        {
+                            "file":  "professor-entregas",
+                            "label":  "Acompanhamento por aluno e atividade"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Publicar para a turma",
+                          "body":  "Disciplina, prazo, instruções e etapas."
+                      },
+                      {
+                          "title":  "Acompanhar entregas",
+                          "body":  "Progresso separado por estudante."
+                      },
+                      {
+                          "title":  "Decidir prorrogação",
+                          "body":  "Aprovar ou rejeitar com justificativa; aprovação atualiza o prazo."
+                      }
+                  ],
+        "notes":  "A mesma atividade publicada aparece para o aluno da turma no ambiente local. O docente também gerencia comunicados. Não existe envio remoto ou autenticação por permissões reais."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 6 · FERRAMENTAS DE ESTUDO",
+        "title":  "Organização também apoia a revisão",
+        "subtitle":  "Notas, checklist e quiz mantêm o estudo dentro da jornada.",
+        "source":  "Etapa 2 · Ideias 13, 14 e 15 + Etapa 6",
+        "screens":  [
+                        {
+                            "file":  "notas",
+                            "label":  "Anotações vinculadas às disciplinas"
+                        },
+                        {
+                            "file":  "quiz",
+                            "label":  "Quiz local e histórico de resultados"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Registrar ideias",
+                          "body":  "Criar, editar e excluir notas pessoais."
+                      },
+                      {
+                          "title":  "Preparar a rotina",
+                          "body":  "Checklist de ações pessoais."
+                      },
+                      {
+                          "title":  "Praticar e revisar",
+                          "body":  "Perguntas locais, acertos, erros e explicações; sem geração por IA."
+                      }
+                  ],
+        "notes":  "Não há multiplayer real nem geração automática de questões. O feedback do quiz explica a resposta cadastrada. As tentativas ficam persistidas para consulta posterior."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 6 · COMUNIDADE E MURAL",
+        "title":  "Conversas e avisos com um contexto claro",
+        "subtitle":  "Turma, autor, data e conteúdo permanecem identificáveis.",
+        "source":  "Etapa 2 · Ideias 4 e 19 + Etapa 6",
+        "screens":  [
+                        {
+                            "file":  "comunidade",
+                            "label":  "Posts, pesquisa e respostas por turma"
+                        },
+                        {
+                            "file":  "mural",
+                            "label":  "Comunicados e estado de leitura"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Colaborar localmente",
+                          "body":  "Publicar dúvidas e responder discussões."
+                      },
+                      {
+                          "title":  "Gerenciar conteúdo próprio",
+                          "body":  "Excluir seus posts e comentários."
+                      },
+                      {
+                          "title":  "Acompanhar comunicados",
+                          "body":  "Docente publica; aluno consulta e marca como lido."
+                      }
+                  ],
+        "notes":  "Conteúdos persistem no mesmo navegador. Comunicação real entre alunos em dispositivos diferentes exige infraestrutura adicional e regras de moderação."
+    },
+    {
+        "type":  "visual",
+        "section":  "ETAPA 6 · GESTÃO E TOTEM",
+        "title":  "Complementos para a organização da escola",
+        "subtitle":  "Perfis fictícios, relacionamentos coerentes e informações públicas.",
+        "source":  "Etapa 2 · Ideias 2 e 20 + Etapa 6",
+        "screens":  [
+                        {
+                            "file":  "administracao",
+                            "label":  "Cadastro de turmas, disciplinas e usuários"
+                        },
+                        {
+                            "file":  "totem",
+                            "label":  "Avisos públicos e estado explicativo do QR Code"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Administrar a base",
+                          "body":  "Cadastrar e editar turmas, disciplinas e usuários."
+                      },
+                      {
+                          "title":  "Associar perfis",
+                          "body":  "Alunos à turma e docentes à disciplina."
+                      },
+                      {
+                          "title":  "Totem demonstrativo",
+                          "body":  "Sem equipamento físico; QR indisponível sem URL pública configurada."
+                      }
+                  ],
+        "notes":  "O documento considera o administrador opcional. O protótipo inclui esse complemento. Não afirme que há controle seguro de acesso ou integração com um totem físico."
+    },
+    {
+        "type":  "architecture",
+        "section":  "ARQUITETURA · IMPLEMENTAÇÃO ATUAL",
+        "title":  "Uma aplicação local com responsabilidades separadas",
+        "subtitle":  "Arquitetura do protótipo; bibliotecas sugeridas no Markdown não são todas utilizadas.",
+        "source":  "Etapa 6 · Direção técnica + código implementado",
+        "items":  [
+                      {
+                          "title":  "Interface e navegação",
+                          "body":  "React 19 + TypeScript estrito + Vite. CSS responsivo e rotas hash; componentes de formulário e diálogo."
+                      },
+                      {
+                          "title":  "Regras de negócio",
+                          "body":  "domain.ts centraliza prioridade, progresso, XP e recuperação. Assistente interpreta intenções locais."
+                      },
+                      {
+                          "title":  "Persistência local",
+                          "body":  "storage.ts acessa IndexedDB e serializa gravações. localStorage mantém preferências e perfil."
+                      },
+                      {
+                          "title":  "Demonstração e offline",
+                          "body":  "demo.ts contém seed e quiz. Service worker guarda arquivos da versão de produção para recarga sem rede."
+                      }
+                  ],
+        "notes":  "Fluxo: interface → regras/ações → repositório local → IndexedDB; recálculo atualiza a interface. Não há backend. O documento sugere Tailwind e React Router ou equivalente; a aplicação atual usa CSS próprio e navegação por hash. Não atribua bibliotecas ausentes à implementação."
+    },
+    {
+        "type":  "flow",
+        "section":  "ARQUITETURA · DADOS E RELACIONAMENTOS",
+        "title":  "Uma atividade compartilhada. Progresso individual.",
+        "subtitle":  "IDs estáveis conectam a turma às responsabilidades de cada estudante.",
+        "source":  "Etapa 6 · Dados fictícios coerentes e persistência",
+        "items":  [
+                      {
+                          "title":  "Turma + disciplina",
+                          "body":  "Organizam os usuários e o contexto acadêmico."
+                      },
+                      {
+                          "title":  "Atividade + etapas",
+                          "body":  "Um registro com prazo e orientações comuns."
+                      },
+                      {
+                          "title":  "Aluno + progresso",
+                          "body":  "Conclusões por usuário e etapa, sem duplicar a atividade."
+                      },
+                      {
+                          "title":  "Cálculos derivados",
+                          "body":  "Status, prioridade, percentual e XP recalculados."
+                      },
+                      {
+                          "title":  "Conteúdo relacionado",
+                          "body":  "Notas, posts, comunicados e tentativas de quiz."
+                      },
+                      {
+                          "title":  "Prazo autorizado",
+                          "body":  "Pedido de extensão → decisão docente → atualização compartilhada."
+                      }
+                  ],
+        "notes":  "Assignment e Progress se relacionam por assignmentId e userId. Conclusões são timestamps por stepId. O XP é derivado, evitando somar recompensas repetidas. A fila de gravações impede que alterações antigas sobrescrevam novas durante salvamentos sucessivos."
+    },
+    {
+        "type":  "visual",
+        "section":  "EXPERIÊNCIA · RESPONSIVIDADE E ACESSIBILIDADE",
+        "title":  "A mesma jornada, em diferentes condições de uso",
+        "subtitle":  "Mobile, tema escuro e controles de conforto visual.",
+        "source":  "Etapas 3 e 6 · Experiência e acessibilidade",
+        "screens":  [
+                        {
+                            "file":  "mobile",
+                            "label":  "Mobile com ação principal em destaque",
+                            "mobile":  true
+                        },
+                        {
+                            "file":  "tema-escuro",
+                            "label":  "Tema escuro aplicado à mesma interface"
+                        }
+                    ],
+        "items":  [
+                      {
+                          "title":  "Hierarquia simples",
+                          "body":  "Prioridade → ação → progresso."
+                      },
+                      {
+                          "title":  "Preferências locais",
+                          "body":  "Tema, fonte, contraste e movimento reduzido."
+                      },
+                      {
+                          "title":  "Ações compreensíveis",
+                          "body":  "Foco visível, labels, feedback e confirmações."
+                      }
+                  ],
+        "notes":  "A interface foi verificada tecnicamente em 390 px. A validação futura precisa incluir pessoas com baixa familiaridade tecnológica e necessidades de acessibilidade. O roteiro não bloqueia navegação livre."
+    },
+    {
+        "type":  "cards",
+        "section":  "ESCOPO · TRANSPARÊNCIA",
+        "title":  "O que está pronto e o que ainda é evolução",
+        "subtitle":  "A demonstração prova ações locais; não simula serviços remotos como reais.",
+        "source":  "Etapa 6 · Escopo e funções que não devem ser prometidas",
+        "items":  [
+                      {
+                          "title":  "Funcional no navegador",
+                          "body":  "Atividades, etapas, calendário, XP, metas, notas, quiz, comunidade, mural, recuperação e gestão."
+                      },
+                      {
+                          "title":  "Demonstrativo e identificado",
+                          "body":  "Troca de perfis, assistente por regras, comunidade local, simulação offline e totem sem equipamento."
+                      },
+                      {
+                          "title":  "Evoluções futuras",
+                          "body":  "Autenticação segura, backend, sincronização, voz/IA generativa, multiplayer, ranking e notificações externas."
+                      }
+                  ],
+        "notes":  "A PWA suporta recarga offline real após cache. Isso não implica sincronização com servidor. Questões por IA, lembretes configuráveis e materiais de estudo mais amplos também são propostas futuras ou parcialmente contempladas."
+    },
+    {
+        "type":  "cards",
+        "section":  "VALIDAÇÃO · PROTÓTIPO",
+        "title":  "Ações verificadas, além de telas estáticas",
+        "subtitle":  "10 testes de regras + 17 cenários em navegador aprovados.",
+        "source":  "Etapa 3 · Aceitação + artefatos dos testes implementados",
+        "items":  [
+                      {
+                          "title":  "Consistência dos dados",
+                          "body":  "Publicação entre perfis, progresso individual, alteração de prazo e persistência após recarga."
+                      },
+                      {
+                          "title":  "Regras determinísticas",
+                          "body":  "XP reversível sem duplicação, prioridade explicável e plano que preserva datas oficiais."
+                      },
+                      {
+                          "title":  "Experiência funcional",
+                          "body":  "Filtros, formulário inválido, estudo, comunidade, mural, prorrogação, teclado e mobile."
+                      },
+                      {
+                          "title":  "Continuidade local",
+                          "body":  "Recarga realmente sem rede por PWA e restauração explícita dos dados demonstrativos."
+                      }
+                  ],
+        "notes":  "Os 27 testes são validação técnica, não pesquisa de impacto educacional. Nenhum resultado com estudantes foi medido. Referência: tests/domain.test.mjs, tests/browser.mjs e artifacts/browser-results.json do projeto."
+    },
+    {
+        "type":  "flow",
+        "section":  "ROTEIRO · DEMONSTRAÇÃO AO VIVO",
+        "title":  "Mostre uma jornada, não apenas uma sequência de telas",
+        "subtitle":  "Roteiro sugerido de 5 a 7 minutos; ajuste ao tempo disponível.",
+        "source":  "Etapa 6 · Roteiro de demonstração",
+        "items":  [
+                      {
+                          "title":  "01 · Problema",
+                          "body":  "Explique a dispersão e mostre o dashboard."
+                      },
+                      {
+                          "title":  "02 · Centralização",
+                          "body":  "Professor publica uma atividade com etapas."
+                      },
+                      {
+                          "title":  "03 · Próximo passo",
+                          "body":  "Aluno abre a atividade recém-criada."
+                      },
+                      {
+                          "title":  "04 · Progresso",
+                          "body":  "Marque uma etapa; mostre percentual e XP."
+                      },
+                      {
+                          "title":  "05 · Recuperação",
+                          "body":  "Aceite e ajuste um dia de estudo."
+                      },
+                      {
+                          "title":  "06 · Offline",
+                          "body":  "Ative a simulação, registre progresso e recarregue."
+                      }
+                  ],
+        "notes":  "Distribuição sugerida: problema e insight 1 minuto; professor e aluno 2 minutos; recuperação e offline 1,5 minuto; fechamento 30 segundos. Prepare a versão de produção para demonstrar recarga realmente sem rede. A simulação sozinha não desliga a conexão. Use Restaurar dados da demonstração antes do pitch, com confirmação."
+    },
+    {
+        "type":  "cards",
+        "section":  "PRÓXIMA ETAPA · VALIDAR COM USUÁRIOS",
+        "title":  "O sucesso precisa ser medido na rotina acadêmica",
+        "subtitle":  "Indicadores propostos no documento. Ainda não há resultados medidos.",
+        "source":  "Etapa 6 · Indicadores para validar posteriormente",
+        "items":  [
+                      {
+                          "title":  "Conclusão no prazo",
+                          "body":  "Percentual de atividades entregues dentro da data oficial."
+                      },
+                      {
+                          "title":  "Atrasos por período",
+                          "body":  "Quantidade de atrasos, observada ao longo de um período definido."
+                      },
+                      {
+                          "title":  "Início antecipado",
+                          "body":  "Percentual de tarefas iniciadas antes do dia do vencimento."
+                      },
+                      {
+                          "title":  "Facilidade de uso",
+                          "body":  "Percepção de alunos e docentes, com atenção à acessibilidade e ao uso mobile."
+                      }
+                  ],
+        "notes":  "Planeje entrevistas, observação de uso e um piloto consentido. Não use os dados fictícios do dashboard como evidência de melhoria de desempenho. Os indicadores dependem de definição de período, amostra e método de coleta."
+    },
+    {
+        "type":  "statement",
+        "section":  "FECHAMENTO · POSICIONAMENTO",
+        "title":  "De uma lista de prazos para uma jornada de execução.",
+        "subtitle":  "Mais do que lembrar prazos, ajudamos você a concluir cada etapa.",
+        "source":  "Síntese do posicionamento do documento",
+        "items":  [
+                      {
+                          "title":  "CLAREZA",
+                          "body":  "Saber por onde começar"
+                      },
+                      {
+                          "title":  "PROGRESSO",
+                          "body":  "Ver cada etapa avançar"
+                      },
+                      {
+                          "title":  "CONTINUIDADE",
+                          "body":  "Seguir no próprio ritmo"
+                      }
+                  ],
+        "notes":  "Feche com o insight central. Proponha como próximo passo validar a solução com estudantes e professores em um piloto. Não prometa redução de atrasos ainda não medida."
+    },
+    {
+        "type":  "table",
+        "section":  "APÊNDICE · 22 IDEIAS · PARTE 1",
+        "title":  "Rastreabilidade das ideias do grupo · 1 a 11",
+        "subtitle":  "Cobertura atual e limites para discussão após o pitch.",
+        "source":  "Etapa 2 · Lista original de ideias",
+        "items":  [
+                      {
+                          "title":  "01 · Alertas em tela",
+                          "body":  "Painel com prioridade e feedback; avisos sem interrupções excessivas."
+                      },
+                      {
+                          "title":  "02 · Totem com QR Code",
+                          "body":  "Visualização local; QR indisponível sem URL pública. Equipamento físico futuro."
+                      },
+                      {
+                          "title":  "03 · Programar tarefas",
+                          "body":  "Atividades, prazo, etapas e estimativas implementados."
+                      },
+                      {
+                          "title":  "04 · Mural eletrônico",
+                          "body":  "Comunicados, turma, autor e leitura implementados."
+                      },
+                      {
+                          "title":  "05 · Flexibilizar entrega",
+                          "body":  "Pedido de extensão e decisão docente justificada implementados."
+                      },
+                      {
+                          "title":  "06 · Pontuação por etapa",
+                          "body":  "XP determinístico e reversível implementado."
+                      },
+                      {
+                          "title":  "07 · Ranking de pontuação",
+                          "body":  "Opcional; não implementado. Sem notas ou exposição de dificuldades."
+                      },
+                      {
+                          "title":  "08 · Lembretes motivacionais",
+                          "body":  "Mensagens de apoio presentes; configuração de lembretes é futura."
+                      },
+                      {
+                          "title":  "09 · Chatbot por texto ou voz",
+                          "body":  "Texto por intenções locais. Voz e IA generativa são futuras."
+                      },
+                      {
+                          "title":  "10 · IA para otimizar",
+                          "body":  "Sugestões locais de prioridade e planejamento; sem aprendizado de máquina."
+                      },
+                      {
+                          "title":  "11 · Acessibilidade",
+                          "body":  "Teclado, foco, texto, contraste e movimento reduzido implementados."
+                      }
+                  ],
+        "notes":  "Esta tabela preserva todas as ideias, inclusive as que não entraram na implementação atual. Não trate demonstrações locais como serviços remotos."
+    },
+    {
+        "type":  "table",
+        "section":  "APÊNDICE · 22 IDEIAS · PARTE 2",
+        "title":  "Rastreabilidade das ideias do grupo · 12 a 22",
+        "subtitle":  "O protótipo distingue conteúdo cadastrado e integrações futuras.",
+        "source":  "Etapa 2 · Lista original de ideias",
+        "items":  [
+                      {
+                          "title":  "12 · Chama de evolução",
+                          "body":  "Indicador de nível e progresso, sem punição por ausência."
+                      },
+                      {
+                          "title":  "13 · Kit de estudo",
+                          "body":  "Notas, checklist e quiz; biblioteca ampla de materiais é evolução futura."
+                      },
+                      {
+                          "title":  "14 · Quiz e multiplayer",
+                          "body":  "Quiz local, explicações e histórico. Multiplayer não implementado."
+                      },
+                      {
+                          "title":  "15 · Bloco de notas",
+                          "body":  "Criação, edição e exclusão de notas associadas a disciplinas."
+                      },
+                      {
+                          "title":  "16 · Questões geradas por IA",
+                          "body":  "Não integrado. Perguntas atuais vêm de uma base demonstrativa local."
+                      },
+                      {
+                          "title":  "17 · Checklist de tarefas",
+                          "body":  "Etapas com conclusão, tempo e reordenação; checklist pessoal adicional."
+                      },
+                      {
+                          "title":  "18 · Lembretes de tarefas",
+                          "body":  "Prioridade interna visível; notificações automáticas externas futuras."
+                      },
+                      {
+                          "title":  "19 · Comunidade de alunos",
+                          "body":  "Posts e respostas persistidos no mesmo navegador; moderação remota futura."
+                      },
+                      {
+                          "title":  "20 · Logins e perfis",
+                          "body":  "Perfis demonstrativos separados na navegação; autenticação segura futura."
+                      },
+                      {
+                          "title":  "21 · Filtros inteligentes",
+                          "body":  "Disciplina, prioridade, status e prazo por regras locais, sem IA externa."
+                      },
+                      {
+                          "title":  "22 · Tour inicial",
+                          "body":  "Ajuda/tour opcional, revisável e sem bloquear a navegação."
+                      }
+                  ],
+        "notes":  "O formato demonstra que a aplicação atende grande parte do escopo proposto, mantendo explícito o que é parcial, opcional ou futuro."
+    },
+    {
+        "type":  "cards",
+        "section":  "APÊNDICE · FONTES E USO DA APRESENTAÇÃO",
+        "title":  "Documento de origem e evidências do protótipo",
+        "subtitle":  "Textos e diagramas editáveis; telas incorporadas ao PowerPoint.",
+        "source":  "Fontes locais do projeto",
+        "items":  [
+                      {
+                          "title":  "Fonte conceitual",
+                          "body":  "Solucao_Academica_Etapas_Ajustadas.md: estrutura das etapas, ideias, restrições, SCAMPER, cenários e indicadores."
+                      },
+                      {
+                          "title":  "Fonte visual e técnica",
+                          "body":  "Aplicação Trilha em projeto-escola: capturas reais de todos os módulos, código e testes locais."
+                      },
+                      {
+                          "title":  "Como apresentar",
+                          "body":  "Use a sequência completa para detalhamento. Para pitch curto, siga a seleção indicada nas notas do primeiro slide."
+                      }
+                  ],
+        "notes":  "Não foram usados dados de pesquisas externas nem resultados inventados. O documento inicial é conceitual e a implementação veio depois. A situação-problema foi apresentada no slide 3; o apêndice preserva as 22 ideias e seus limites."
+    }
+]
